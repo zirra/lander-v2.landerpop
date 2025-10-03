@@ -11,10 +11,12 @@ const core = {
   },
   computed: {
     ...mapGetters({
+      segment: 'segment'
     })
   },
   methods: {
     ...mapActions({
+      setSegment: 'setSegment'
     })
   }
 }

@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/HomeView'
 import SegmentView from '@/views/SegmentView'
 
 const routes = [
@@ -7,11 +6,6 @@ const routes = [
     path: '/:segmentId',
     name: 'segmented',
     component: SegmentView
-  },
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
   }
 ]
 
