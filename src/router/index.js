@@ -6,6 +6,11 @@ const routes = [
     path: '/:segmentId',
     name: 'segmented',
     component: SegmentView
+  },
+  {
+    path: '/',
+    name: 'none',
+    component: SegmentView
   }
 ]
 
