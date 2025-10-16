@@ -11,13 +11,19 @@ const core = {
   },
   computed: {
     ...mapGetters({
+      application: 'application',
+      propertyId: 'propertyId',
       segment: 'segment'
     })
   },
   methods: {
     ...mapActions({
+      setPropertyId: 'setPropertyId',
       setSegment: 'setSegment'
-    })
+    }),
+    setBranding (_object) {
+      console.log(_object)
+    }
   }
 }
 

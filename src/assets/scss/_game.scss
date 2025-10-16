@@ -1,0 +1,40 @@
+.game-scratcher {
+  width: 100%;
+  margin-bottom: 2.2rem;
+  
+  img {
+    width: 100%;
+  }
+}
+
+.game-holder {
+  width: 94%;
+  margin: 0 3%;
+
+  p {
+    margin: 2px 4px;
+    font-size: 130%;
+    text-align: left;
+    color: $font-main;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 180%;
+    padding: .8rem 1.2rem;
+    border-radius: .5rem;
+    border: solid 1px #ccc;
+    margin: 1.2rem 0;
+  }
+
+  button {
+    width: 100%;
+    background-color: #fff;
+    font-size: 180%;
+    color: #000;
+    padding: .8rem 1.2rem;
+    border-radius: .5rem;
+    border: solid 1px #ccc;
+    margin: 1.2rem 0;
+  }
+}

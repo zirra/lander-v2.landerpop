@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    {{ appDomain }}
+    {{ appDomain }}<br/><br/>
+    {{ application }}<br/>
   </div>
 </template>
 
