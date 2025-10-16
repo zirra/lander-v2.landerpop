@@ -32,7 +32,84 @@ const state = {
           "https://demo.chalklinegames.com/integration/embed.js?ts=s",
       },
     ],
-    "content": [    
+    "content": [
+      {
+        "segmentId": "cat1",
+        "segmentName": "Sports Enthusiast",
+        "routeName": "sportsenthusiast",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      },
+      {
+        "segmentId": "cat2",
+        "segmentName": "Slot Player",
+        "routeName": "slotplayer",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      },
+      {
+        "segmentId": "cat3",
+        "segmentName": "Upcoming Events",
+        "routeName": "upcomingevents",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      },
+      {
+        "segmentId": "cat4",
+        "segmentName": "Bingo Players",
+        "routeName": "bingoplayers",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      },
+      {
+        "segmentId": "cat5",
+        "segmentName": "Golfing",
+        "routeName": "golfing",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      },
+      {
+        "segmentId": "cat6",
+        "segmentName": "New Guest",
+        "routeName": "newguest",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      },
+      {
+        "segmentId": "cat7",
+        "segmentName": "Inactive Guest",
+        "routeName": "inactiveguest",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      }
     ]
   },
   propertyId: null
