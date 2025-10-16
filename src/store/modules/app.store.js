@@ -68,6 +68,17 @@ const state = {
       },
       {
         "segmentId": "cat4",
+        "segmentName": "Table Games",
+        "routeName": "tablegames",
+        "image": "mainmenuimage",
+        "segments": [
+          {"content": "id" },
+          {"contest": "id" },
+          {"commerce": "id" }
+        ]
+      },
+      {
+        "segmentId": "cat5",
         "segmentName": "Bingo Players",
         "routeName": "bingoplayers",
         "image": "mainmenuimage",
@@ -78,7 +89,7 @@ const state = {
         ]
       },
       {
-        "segmentId": "cat5",
+        "segmentId": "cat6",
         "segmentName": "Golfing",
         "routeName": "golfing",
         "image": "mainmenuimage",
@@ -89,7 +100,7 @@ const state = {
         ]
       },
       {
-        "segmentId": "cat6",
+        "segmentId": "cat7",
         "segmentName": "New Guest",
         "routeName": "newguest",
         "image": "mainmenuimage",
@@ -100,7 +111,7 @@ const state = {
         ]
       },
       {
-        "segmentId": "cat7",
+        "segmentId": "cat8",
         "segmentName": "Inactive Guest",
         "routeName": "inactiveguest",
         "image": "mainmenuimage",
