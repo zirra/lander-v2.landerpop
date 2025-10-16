@@ -4,7 +4,6 @@
     <div v-for="(segment, id) in application.content"
       :key="id"
       style="width: 94%; margin: 3%;">
-      {{ segment }}<br/><br/>
       <img 
         :src="`${imageRoot}${application.propertyId}/${segment.image}`" 
         @click="$router.push(segment.routeName)"/><br/>
