@@ -37,7 +37,7 @@ const state = {
         "segmentId": "cat1",
         "segmentName": "Sports Enthusiast",
         "routeName": "sportsenthusiast",
-        "image": "mainmenuimage",
+        "image": "main_sportsbook.png",
         "segments": [
           {"content": "id" },
           {"contest": "id" },
@@ -48,7 +48,7 @@ const state = {
         "segmentId": "cat2",
         "segmentName": "Slot Player",
         "routeName": "slotplayer",
-        "image": "mainmenuimage",
+        "image": "main_slotsplayer.png",
         "segments": [
           {"content": "id" },
           {"contest": "id" },
@@ -59,7 +59,7 @@ const state = {
         "segmentId": "cat3",
         "segmentName": "Upcoming Events",
         "routeName": "upcomingevents",
-        "image": "mainmenuimage",
+        "image": "main_events.png",
         "segments": [
           {"content": "id" },
           {"contest": "id" },
@@ -70,7 +70,7 @@ const state = {
         "segmentId": "cat4",
         "segmentName": "Table Games",
         "routeName": "tablegames",
-        "image": "mainmenuimage",
+        "image": "main_tablegames.png",
         "segments": [
           {"content": "id" },
           {"contest": "id" },
@@ -81,7 +81,7 @@ const state = {
         "segmentId": "cat5",
         "segmentName": "Bingo Players",
         "routeName": "bingoplayers",
-        "image": "mainmenuimage",
+        "image": "main_bingoplayer.png",
         "segments": [
           {"content": "id" },
           {"contest": "id" },
@@ -92,7 +92,7 @@ const state = {
         "segmentId": "cat6",
         "segmentName": "Golfing",
         "routeName": "golfing",
-        "image": "mainmenuimage",
+        "image": "main_golf.png",
         "segments": [
           {"content": "id" },
           {"contest": "id" },
