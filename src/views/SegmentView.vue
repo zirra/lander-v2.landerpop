@@ -16,10 +16,12 @@ export default {
       if( seg ) {
         this.setSegment(seg)
       } else {
-        this.setSegment('main')  
+        this.setSegment('main')
+        this.$router.push({name: 'home'})
       }
     } else {
       this.setSegment('main')
+      this.$router.push({name: 'home'})
     }
   }
 }
