@@ -4,7 +4,7 @@
     <div v-for="(segment, id) in application.content"
       :key="id">
       {{ segment }}<br/><br/>
-      <a @click="$router.push(segment.routeName)">View</a><br/><br/>
+      <a @click="$router.push(segment.routeName)">View {{ segment.segmentName }}</a><br/><br/>
     </div>
   </div>
 </template>
