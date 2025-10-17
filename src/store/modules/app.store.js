@@ -98,28 +98,6 @@ const state = {
           {"contest": "id" },
           {"commerce": "id" }
         ]
-      },
-      {
-        "segmentId": "cat7",
-        "segmentName": "New Guest",
-        "routeName": "newguest",
-        "image": "mainmenuimage",
-        "segments": [
-          {"content": "id" },
-          {"contest": "id" },
-          {"commerce": "id" }
-        ]
-      },
-      {
-        "segmentId": "cat8",
-        "segmentName": "Inactive Guest",
-        "routeName": "inactiveguest",
-        "image": "mainmenuimage",
-        "segments": [
-          {"content": "id" },
-          {"contest": "id" },
-          {"commerce": "id" }
-        ]
       }
     ]
   },
