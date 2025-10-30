@@ -1,12 +1,16 @@
 <template>
   <div>
-    Property: {{ domain.split('.')[0] }}<br/><br/>
+    <header-card />
     {{ segment }}
   </div>
 </template>
 
 <script>
+import HeaderCard from "@/components/cards/HeaderCard.vue"
+
 export default {
+  
+  components: { HeaderCard },
   name: 'SegmentView',
   async mounted () {
     this.setBranding(this.application.branding)
