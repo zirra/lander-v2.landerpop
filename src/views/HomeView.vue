@@ -18,6 +18,8 @@ export default {
   }),
   async mounted () {
     this.appDomain = this.domain.split('.')[0]
+    this.setBranding(this.application.branding)
+    this.setPropertyId(this.application.propertyId)
   }
 }
 </script>
