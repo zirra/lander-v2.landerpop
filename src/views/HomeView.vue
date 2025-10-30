@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    {{ appDomain }}<br/><br/>
     <menu-card
       v-for="(segment, id) in application.content"
       :key="id"
