@@ -21,6 +21,9 @@ const core = {
     }),
     setBranding (_object) {
       console.log(_object)
+    },
+    showMenu () {
+      console.log('menu flip')
     }
   }
 }
