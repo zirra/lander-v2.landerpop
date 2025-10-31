@@ -1,4 +1,5 @@
 //import Storage from '@/com/system/storage'
+
 const MUTATE_APPLICATION = 'mutateApplication'
 const MUTATE_PROPERTY_ID = 'mutatePropertyId'
 const MUTATE_SEGMENT = 'mutateSegment'
