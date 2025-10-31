@@ -2,6 +2,10 @@
   <footer>
     <div>
       <span class="material-symbols-outlined"
+        @click="mainMenu">
+        home
+      </span>
+      <span class="material-symbols-outlined"
         @click="showMenu">
         menu
       </span>

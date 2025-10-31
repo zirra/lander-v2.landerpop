@@ -24,6 +24,9 @@ const core = {
     },
     showMenu () {
       console.log('menu flip')
+    },
+    mainMenu () {
+      this.$router.push('/')
     }
   }
 }
