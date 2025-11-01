@@ -2,6 +2,7 @@
 
 const MUTATE_APPLICATION = 'mutateApplication'
 const MUTATE_PROPERTY_ID = 'mutatePropertyId'
+const MUTATE_ISMAIN = 'mutateIsMain'
 const MUTATE_SEGMENT = 'mutateSegment'
 
 const state = {
@@ -102,11 +103,13 @@ const state = {
       }
     ]
   },
+  isMain: false,
   propertyId: null
 }
 
 const getters = {
   application: state => state.application,
+  isMain: state => state.isMain,
   propertyId: state => state.propertyId,
   segment: state => state.segment
 }
@@ -114,6 +117,9 @@ const getters = {
 const mutations = {
   mutateApplication (state, _app) {
     state.application = _app
+  },
+  mutateIsMain (state, _bool) {
+    state.isMain = _bool
   },
   mutatePropertyId (state, _pid) {
     state.propertyId = _pid
@@ -126,6 +132,9 @@ const mutations = {
 const actions = {
   setApplication ({ commit }, _app) {
     commit(MUTATE_APPLICATION, _app)
+  },
+  setIsMain ({ commit }, _bool) {
+    commit(MUTATE_ISMAIN, _bool)
   },
   setPropertyId ({ commit }, _pid) {
     commit(MUTATE_PROPERTY_ID, _pid)

@@ -2,7 +2,8 @@
   <footer>
     <div>
       <span class="material-symbols-outlined"
-        @click="mainMenu">
+        @click="mainMenu"
+        v-if="!isMain">
         home
       </span>
       <span class="material-symbols-outlined"

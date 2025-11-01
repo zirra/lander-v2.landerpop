@@ -27,6 +27,7 @@ export default {
       this.setSegment('main')
       this.$router.push({name: 'home'})
     }
+    this.setIsMain(false)
   }
 }
 </script>

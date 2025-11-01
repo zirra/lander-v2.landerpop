@@ -10,6 +10,7 @@ const core = {
   computed: {
     ...mapGetters({
       application: 'application',
+      isMain: 'isMain',
       propertyId: 'propertyId',
       segment: 'segment'
     })
@@ -17,6 +18,7 @@ const core = {
   methods: {
     ...mapActions({
       setPropertyId: 'setPropertyId',
+      setIsMain: 'setIsMain',
       setSegment: 'setSegment'
     }),
     setBranding (_object) {
