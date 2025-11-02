@@ -51,10 +51,12 @@ const state = {
             }
           },
           {
-            "contentId": "contest" 
+            "contentId": "contest",
+            "title": "Freeplay Rewards"
           },
           {
-            "contentId": "commerce" 
+            "contentId": "commerce",
+            "title": "Commerce Callout"
           }
         ]
       },
@@ -74,10 +76,12 @@ const state = {
             }
           },
           {
-            "contentId": "contest" 
+            "contentId": "contest",
+            "title": "Win Freeplay Credits"
           },
           {
-            "contentId": "commerce" 
+            "contentId": "commerce",
+            "title": "Commerce Callout"
           }
         ]
       },
@@ -97,10 +101,12 @@ const state = {
             }
           },
           {
-            "contentId": "contest" 
+            "contentId": "contest",
+            "title": "Play to Win Tickets"
           },
           {
-            "contentId": "commerce" 
+            "contentId": "commerce",
+            "title": "Commerce Callout"
           }
         ]
       },
@@ -120,10 +126,12 @@ const state = {
             }
           },
           {
-            "contentId": "contest" 
+            "contentId": "contest",
+            "title": "Win Table Credits"
           },
           {
-            "contentId": "commerce" 
+            "contentId": "commerce",
+            "title": "Commerce Callout"
           }
         ]
       },
@@ -143,10 +151,12 @@ const state = {
             }
           },
           {
-            "contentId": "contest" 
+            "contentId": "contest",
+            "title": "Bingo Credits"
           },
           {
-            "contentId": "commerce" 
+            "contentId": "commerce",
+            "title": "Commerce Callout"
           }
         ]
       },
@@ -166,10 +176,11 @@ const state = {
             }
           },
           {
-            "contentId": "contest" 
+            "contentId": "contest"
           },
           {
-            "contentId": "commerce" 
+            "contentId": "commerce",
+            "title": "Commerce Callout"
           }
         ]
       }
