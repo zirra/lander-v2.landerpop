@@ -3,6 +3,7 @@
     
     <header-card />
 
+    <h2>{{ segment.segmentName }}</h2>
     <image-item 
       :context="{url: segment.image, alt: segment.segmentName }" 
       />
