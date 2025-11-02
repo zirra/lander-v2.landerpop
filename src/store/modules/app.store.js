@@ -37,7 +37,7 @@ const state = {
     "content": [
       {
         "segmentId": "cat1",
-        "segmentName": "Sports Enthusiast",
+        "segmentName": "Prairie Band Sportsbook",
         "routeName": "sportsenthusiast",
         "image": "main_sportsbook.png",
         "segments": [
@@ -47,7 +47,7 @@ const state = {
             "content": "Prairie Band Sportsbook Looking for the ultimate sports betting experience? Place your wager with a friendly member of our team in the brand-new sportsbook, filled with wall-to-wall TVs, food, drink and unlimited action! Or, lock in your winning parlay at one of our 10 state-of-the-art sports betting kiosks. From football to basketball, to any sport in between, you can always Bet Your Way with Prairie Band Sportsbook!",
             "link": {
               "url": "https://www.prairieband.com/sportsbook/",
-              "button": "More Info"
+              "button": "Sports Betting"
             }
           },
           {
@@ -60,7 +60,7 @@ const state = {
       },
       {
         "segmentId": "cat2",
-        "segmentName": "Slot Player",
+        "segmentName": "Prairie Band Slots",
         "routeName": "slotplayer",
         "image": "main_slotsplayer.png",
         "segments": [
@@ -70,7 +70,7 @@ const state = {
             "content": "<p>Take our slots for a spin and find your new favorite game! Choose from our 1,200 slot machines including a wide variety of slots and video poker, including games that are exclusive in Kansas, the Midwest and sometimes across the entire country!</p><p>Classic slot machines like 3 Reel $1 Double Gold or .01¢ Stinkin’ Rich and other slots you’ve loved throughout the years. Brand new slots are added to the floor regularly adding excitement, fun bonuses, interactive features and growing progressive jackpots!</p><h3>High Limit Slots</h3><p>Whether you’re looking for a little privacy or wanting to bet big, you will enjoy the selection in our High Limit Room. Game variety includes .05¢-.25¢ video including Huff N Puff, and Dragon Link, $1-$10 reels including Blazing 777 Triple Double Jackpot Wild and Double Gold, and $1-$5 video poker including Triple Play, Five Play, and Five Star Poker.</p>",
             "link": {
               "url": "https://www.prairieband.com/slot/slots/",
-              "button": "More Info"
+              "button": "View Slots"
             }
           },
           {
@@ -106,7 +106,7 @@ const state = {
       },
       {
         "segmentId": "cat4",
-        "segmentName": "Table Games",
+        "segmentName": "Prairie Band Table Games",
         "routeName": "tablegames",
         "image": "main_tablegames.png",
         "segments": [
@@ -116,7 +116,7 @@ const state = {
             "content": "",
             "link": {
               "url": "https://www.prairieband.com/table-game/blackjack/",
-              "button": "More Info"
+              "button": "Our Table Games"
             }
           },
           {
@@ -129,7 +129,7 @@ const state = {
       },
       {
         "segmentId": "cat5",
-        "segmentName": "Bingo Players",
+        "segmentName": "Prairie Band Bingo Sessions",
         "routeName": "bingoplayers",
         "image": "main_bingoplayer.png",
         "segments": [
@@ -139,7 +139,7 @@ const state = {
             "content": "",
             "link": {
               "url": "https://www.prairieband.com/bingo/",
-              "button": "More Info"
+              "button": "Bingo Options"
             }
           },
           {
@@ -152,7 +152,7 @@ const state = {
       },
       {
         "segmentId": "cat6",
-        "segmentName": "Golfing",
+        "segmentName": "Firekeeper Golf Course",
         "routeName": "golfing",
         "image": "main_golf.png",
         "segments": [
@@ -162,7 +162,7 @@ const state = {
             "content": "",
             "link": {
               "url": "https://firekeepergolf.com/",
-              "button": "More Info"
+              "button": "Schedule"
             }
           },
           {

@@ -7,7 +7,7 @@
         home
       </span>
       <span class="material-symbols-outlined"
-        @click="showMenu">
+        @click="showSettings">
         menu
       </span>
     </div>
