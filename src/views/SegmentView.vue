@@ -3,7 +3,7 @@
     
     <header-card />
 
-    <h2>{{ segment.segmentName }}</h2>
+    <h1>{{ segment.segmentName }}</h1>
     <image-item 
       :context="{url: segment.image, alt: segment.segmentName }" 
       />
@@ -13,6 +13,8 @@
       :context="seg"
       :key="id" />
       
+    <div class="bumper"></div>
+    
   </div>
 </template>
 
