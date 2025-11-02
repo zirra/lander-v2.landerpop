@@ -5,6 +5,7 @@
       v-for="(segment, id) in application.content"
       :key="id"
       :context="segment" />
+    <div class="bumper"></div>
   </div>
 </template>
 

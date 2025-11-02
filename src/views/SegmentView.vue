@@ -1,16 +1,28 @@
 <template>
-  <div>
+  <div v-if="segment">
+    
     <header-card />
-    {{ segment }}
+
+    <image-item 
+      :context="{url: segment.image, alt: segment.segmentName }" 
+      />
+
+    <segmenter-item 
+      v-for="(seg, id) in segment.segments"
+      :context="seg"
+      :key="id" />
+      
   </div>
 </template>
 
 <script>
 import HeaderCard from "@/components/cards/HeaderCard.vue"
+import ImageItem from '@/components/items/ImageItem.vue'
+import SegmenterItem from '@/components/widget/SegmenterItem.vue'
 
 export default {
   
-  components: { HeaderCard },
+  components: { HeaderCard, ImageItem, SegmenterItem },
   name: 'SegmentView',
   async mounted () {
     this.setBranding(this.application.branding)

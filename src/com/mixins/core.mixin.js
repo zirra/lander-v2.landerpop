@@ -29,6 +29,9 @@ const core = {
     },
     mainMenu () {
       this.$router.push('/')
+    },
+    openUrl (target) {
+      window.open(target)
     }
   }
 }
