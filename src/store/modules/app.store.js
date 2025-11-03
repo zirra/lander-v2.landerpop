@@ -69,7 +69,7 @@ const state = {
           {
             "contentId": "content",
             "title": "Prairie Band Slots",
-            "content": "<p>Take our slots for a spin and find your new favorite game! Choose from our 1,200 slot machines including a wide variety of slots and video poker, including games that are exclusive in Kansas, the Midwest and sometimes across the entire country!</p><br/><p>Classic slot machines like 3 Reel $1 Double Gold or .01¢ Stinkin’ Rich and other slots you’ve loved throughout the years. Brand new slots are added to the floor regularly adding excitement, fun bonuses, interactive features and growing progressive jackpots!<h3>High Limit Slots</h3><p>Whether you’re looking for a little privacy or wanting to bet big, you will enjoy the selection in our High Limit Room. Game variety includes .05¢-.25¢ video including Huff N Puff, and Dragon Link, $1-$10 reels including Blazing 777 Triple Double Jackpot Wild and Double Gold, and $1-$5 video poker including Triple Play, Five Play, and Five Star Poker.</p>",
+            "content": "<p>Take our slots for a spin and find your new favorite game! Choose from our 1,200 slot machines including a wide variety of slots and video poker, including games that are exclusive in Kansas, the Midwest and sometimes across the entire country!</p>",
             "link": {
               "url": "https://www.prairieband.com/slot/slots/",
               "button": "View Slots"
