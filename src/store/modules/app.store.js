@@ -176,7 +176,8 @@ const state = {
             }
           },
           {
-            "contentId": "contest"
+            "contentId": "contest",
+            "title": "Proshop Giveaway"
           },
           {
             "contentId": "commerce",
