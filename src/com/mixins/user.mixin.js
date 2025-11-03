@@ -5,10 +5,12 @@ const user = {
   }),
   computed: {
     ...mapGetters({
+      user: 'user'
     })
   },
   methods: {
     ...mapActions({
+      setUser: 'setUser'
     })
   }
 }
