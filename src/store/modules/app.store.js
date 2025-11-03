@@ -137,7 +137,7 @@ const state = {
       },
       {
         "segmentId": "cat5",
-        "segmentName": "Prairie Band Bingo Sessions",
+        "segmentName": "Bingo Sessions",
         "routeName": "bingoplayers",
         "image": "main_bingoplayer.png",
         "segments": [
