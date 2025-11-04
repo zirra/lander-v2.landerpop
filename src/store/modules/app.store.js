@@ -44,7 +44,7 @@ const state = {
           {
             "contentId": "content",
             "title": "Prairie Band Sportsbook",
-            "content": "<p>Prairie Band Sportsbook Looking for the ultimate sports betting experience? Place your wager with a friendly member of our team in the brand-new sportsbook, filled with wall-to-wall TVs, food, drink and unlimited action! Or, lock in your winning parlay at one of our 10 state-of-the-art sports betting kiosks. From football to basketball, to any sport in between, you can always Bet Your Way with Prairie Band Sportsbook!</p>",
+            "content": "<p>Bet your way at our sportsbook.</p>",
             "link": {
               "url": "https://www.prairieband.com/sportsbook/",
               "button": "Sports Betting"
@@ -69,7 +69,7 @@ const state = {
           {
             "contentId": "content",
             "title": "Prairie Band Slots",
-            "content": "<p>Take our slots for a spin and find your new favorite game! Choose from our 1,200 slot machines including a wide variety of slots and video poker, including games that are exclusive in Kansas, the Midwest and sometimes across the entire country!</p>",
+            "content": "<p>1,200 slots including exclusive high-limit games.</p>",
             "link": {
               "url": "https://www.prairieband.com/slot/slots/",
               "button": "View Slots"
