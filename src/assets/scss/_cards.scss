@@ -50,6 +50,16 @@ footer {
   }
 }
 
- .segment-card {
+.segment-card {
   width: 100%;
+ }
+
+ .segment-container {
+  header {
+    img {
+      max-height: 100px;
+    }
+    margin-bottom: 0;
+  }
+  text-align: center;
  }

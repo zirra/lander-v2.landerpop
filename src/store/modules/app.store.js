@@ -37,7 +37,7 @@ const state = {
     "content": [
       {
         "segmentId": "cat1",
-        "segmentName": "Prairie Band Sportsbook",
+        "segmentName": "Sportsbook",
         "routeName": "sportsenthusiast",
         "image": "main_sportsbook.png",
         "segments": [
@@ -62,7 +62,7 @@ const state = {
       },
       {
         "segmentId": "cat2",
-        "segmentName": "Prairie Band Slots",
+        "segmentName": "Slots",
         "routeName": "slotplayer",
         "image": "main_slotsplayer.png",
         "segments": [
@@ -112,7 +112,7 @@ const state = {
       },
       {
         "segmentId": "cat4",
-        "segmentName": "Prairie Band Table Games",
+        "segmentName": "Table Games",
         "routeName": "tablegames",
         "image": "main_tablegames.png",
         "segments": [

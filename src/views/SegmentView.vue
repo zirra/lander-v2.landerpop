@@ -1,9 +1,11 @@
 <template>
-  <div v-if="segment">
+  <div v-if="segment"
+    class="segment-container">
     
     <header-card />
 
     <h1>{{ segment.segmentName }}</h1>
+
     <image-item 
       :context="{url: segment.image, alt: segment.segmentName }" 
       />
