@@ -42,6 +42,10 @@ const state = {
         "image": "main_sportsbook.png",
         "segments": [
           {
+            "contentId": "contest",
+            "title": "Freeplay Rewards"
+          },
+          {
             "contentId": "content",
             "title": "Prairie Band Sportsbook",
             "content": "<p>Bet your way at our sportsbook</p>",
@@ -49,10 +53,6 @@ const state = {
               "url": "https://www.prairieband.com/sportsbook/",
               "button": "Get Betting"
             }
-          },
-          {
-            "contentId": "contest",
-            "title": "Freeplay Rewards"
           },
           {
             "contentId": "commerce",

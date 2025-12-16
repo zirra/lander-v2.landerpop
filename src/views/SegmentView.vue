@@ -3,17 +3,10 @@
     class="segment-container">
     
     <header-card />
-
-    <h1>{{ segment.segmentName }}</h1>
-
-    <image-item 
-      :context="{url: segment.image, alt: segment.segmentName }" 
-      />
-
+  
     <segmenter-item 
-      v-for="(seg, id) in segment.segments"
-      :context="seg"
-      :key="id" />
+      :context="segment"
+      :key="`seg1`" />
       
     <div class="bumper"></div>
     
@@ -22,12 +15,11 @@
 
 <script>
 import HeaderCard from "@/components/cards/HeaderCard.vue"
-import ImageItem from '@/components/items/ImageItem.vue'
 import SegmenterItem from '@/components/widget/SegmenterItem.vue'
 
 export default {
   
-  components: { HeaderCard, ImageItem, SegmenterItem },
+  components: { HeaderCard, SegmenterItem },
   name: 'SegmentView',
   async mounted () {
     this.setBranding(this.application.branding)
