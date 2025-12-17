@@ -1,21 +1,34 @@
 <template>
-  <div>
+  <div class="lander-segment">
     
-    <contest-item 
-      :context="getSegment('contest')"
-      :key="`contest_cat_`"
-      />
+    <div class="pyramid">
 
-    <content-item 
-      :context="getSegment('content')"
-      :key="`content_cat_`"
-      />
+      
 
-    <commerce-item 
-      :context="getSegment('commerce')"
-      :key="`commerce_cat_`"
-      />
-   
+      <contest-item 
+        :context="getSegment('contest')"
+        :key="`contest_cat_`"
+        class="feature"
+        />
+      
+      <h2>{{ segment.segmentName }}</h2>
+      
+      <div class="subfeatures">
+        
+        <content-item 
+          :context="getSegment('content')"
+          :key="`content_cat_`"
+          class="subfeature-l"
+          />
+
+        <commerce-item 
+          :context="getSegment('commerce')"
+          :key="`commerce_cat_`"
+          class="subfeature-r"
+          />
+
+      </div>
+    </div>
   </div>
 </template>
 

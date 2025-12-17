@@ -43,6 +43,7 @@ const state = {
         "segments": [
           {
             "contentId": "contest",
+            "image": "contest-holder.png",
             "title": "Freeplay Rewards"
           },
           {
@@ -77,6 +78,7 @@ const state = {
           },
           {
             "contentId": "contest",
+            "image": "contest-holder.png",
             "title": "Win Freeplay Credits"
           },
           {
@@ -102,6 +104,7 @@ const state = {
           },
           {
             "contentId": "contest",
+            "image": "contest-holder.png",
             "title": "Play to Win Tickets"
           },
           {
@@ -127,6 +130,7 @@ const state = {
           },
           {
             "contentId": "contest",
+            "image": "contest-holder.png",
             "title": "Win Table Credits"
           },
           {
@@ -152,6 +156,7 @@ const state = {
           },
           {
             "contentId": "contest",
+            "image": "contest-holder.png",
             "title": "Bingo Credits"
           },
           {
@@ -177,6 +182,7 @@ const state = {
           },
           {
             "contentId": "contest",
+            "image": "contest-holder.png",
             "title": "Proshop Giveaway"
           },
           {

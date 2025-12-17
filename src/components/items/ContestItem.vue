@@ -1,13 +1,14 @@
 <template>
-  <div class="segment-card">
-    <h2>{{ context.title }}</h2>
-    <p v-html="context.content"></p><br/>
-    <button @click="openUrl(context.link.url)" v-if="context.link" >{{ context.link.button}}</button>
+  <div>
+   <image-item :context="{ url: context.image, alt: context.title }" />
+   <p>Contest callout</p>
   </div>
 </template>
 
 <script>
+import ImageItem from './ImageItem.vue'
 export default {
+  components: { ImageItem },
   name: 'ContestItem',
   props: {
     context: {

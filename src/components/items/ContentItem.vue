@@ -1,8 +1,6 @@
 <template>
-  <div class="segment-card">
-    <br/>
-    <p v-html="context.content"></p><br/>
-    <button @click="openUrl(context.link.url)">{{ context.link.button}}</button>
+  <div>
+    <p>Content Holder</p>
   </div>
 </template>
 
