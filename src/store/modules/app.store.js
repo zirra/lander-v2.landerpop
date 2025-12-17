@@ -48,6 +48,7 @@ const state = {
           },
           {
             "contentId": "content",
+            "image": "content-holder.png",
             "title": "Prairie Band Sportsbook",
             "content": "<p>Bet your way at our sportsbook</p>",
             "link": {
@@ -57,8 +58,10 @@ const state = {
           },
           {
             "contentId": "commerce",
+            "image": "commerce-holder.png",
             "title": "Commerce Callout"
           }
+
         ]
       },
       {
@@ -149,6 +152,7 @@ const state = {
             "contentId": "content",
             "title": "",
             "content": "",
+            "image": "content-holder.png",
             "link": {
               "url": "https://www.prairieband.com/bingo/",
               "button": "Bingo Options"
@@ -161,6 +165,7 @@ const state = {
           },
           {
             "contentId": "commerce",
+            "image": "commerce-holder.png",
             "title": "Commerce Callout"
           }
         ]

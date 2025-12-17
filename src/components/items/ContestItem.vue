@@ -1,7 +1,6 @@
 <template>
   <div>
    <image-item :context="{ url: context.image, alt: context.title }" />
-   <p>Contest callout</p>
   </div>
 </template>
 

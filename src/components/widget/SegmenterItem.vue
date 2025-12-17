@@ -3,15 +3,13 @@
     
     <div class="pyramid">
 
-      
+      <h2>{{ segment.segmentName }}</h2>
 
       <contest-item 
         :context="getSegment('contest')"
         :key="`contest_cat_`"
         class="feature"
         />
-      
-      <h2>{{ segment.segmentName }}</h2>
       
       <div class="subfeatures">
         
@@ -28,6 +26,7 @@
           />
 
       </div>
+
     </div>
   </div>
 </template>

@@ -1,12 +1,14 @@
 <template>
   <div>
-    <p>Content Holder</p>
+    <image-item :context="{ url: context.image, alt: context.title }" />
   </div>
 </template>
 
 <script>
+import ImageItem from './ImageItem.vue'
 export default {
   name: 'ContentItem',
+  components: { ImageItem },
   props: {
     context: {
       type: Object,
