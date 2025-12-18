@@ -40,6 +40,7 @@ const state = {
         "segmentName": "Sportsbook",
         "routeName": "sportsenthusiast",
         "image": "main_sportsbook.png",
+        "layout": "tower",
         "segments": [
           {
             "contentId": "contest",
@@ -69,6 +70,7 @@ const state = {
         "segmentName": "Slots",
         "routeName": "slotplayer",
         "image": "main_slotsplayer.png",
+        "layout": "pyramid",
         "segments": [
           {
             "contentId": "content",
@@ -95,6 +97,7 @@ const state = {
         "segmentName": "Upcoming Events",
         "routeName": "upcomingevents",
         "image": "main_events.png",
+        "layout": "pyramid",
         "segments": [
           {
             "contentId": "content",
@@ -121,6 +124,7 @@ const state = {
         "segmentName": "Table Games",
         "routeName": "tablegames",
         "image": "main_tablegames.png",
+        "layout": "pyramid",
         "segments": [
           {
             "contentId": "content",
@@ -147,6 +151,7 @@ const state = {
         "segmentName": "Bingo Sessions",
         "routeName": "bingoplayers",
         "image": "main_bingoplayer.png",
+        "layout": "pyramid",
         "segments": [
           {
             "contentId": "content",
@@ -175,6 +180,7 @@ const state = {
         "segmentName": "Firekeeper Golf Course",
         "routeName": "golfing",
         "image": "main_golf.png",
+        "layout": "pyramid",
         "segments": [
           {
             "contentId": "content",
