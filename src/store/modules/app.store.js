@@ -40,7 +40,7 @@ const state = {
         "segmentName": "Sportsbook",
         "routeName": "sportsenthusiast",
         "image": "main_sportsbook.png",
-        "layout": "tower",
+        "layout": "pyramid",
         "segments": [
           {
             "contentId": "contest",
@@ -70,7 +70,7 @@ const state = {
         "segmentName": "Slots",
         "routeName": "slotplayer",
         "image": "main_slotsplayer.png",
-        "layout": "pyramid",
+        "layout": "tower",
         "segments": [
           {
             "contentId": "content",
@@ -79,15 +79,17 @@ const state = {
             "link": {
               "url": "https://www.prairieband.com/slot/slots/",
               "button": "Play Slots"
-            }
+            },
+            "image": "content-tower.png"
           },
           {
             "contentId": "contest",
-            "image": "contest-holder.png",
+            "image": "contest-tower.png",
             "title": "Win Freeplay Credits"
           },
           {
             "contentId": "commerce",
+            "image": "commerce-tower.png",
             "title": "Commerce Callout"
           }
         ]
